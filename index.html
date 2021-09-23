@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/css/style.css">
+</head>
+
+<body>
+  <main>
+    <section class="card-group">
+      <div class="card card--profile">
+        <div class="card--profile__header">
+          <div class="card--profile__photo">
+            <img src="./images/image-jeremy.png" alt="Jeremy">
+          </div>
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="card--profile__content">
+          <button type="button" class="card--profile__button">Daily</button>
+          <button type="button" class="card--profile__button card--profile__button--active">Weekly</button>
+          <button type="button" class="card--profile__button ">Monthly</button>
+        </div>
+      </div>
+      <div class="card card--task card--work">
+        <div class="card__header">
+          <img src="./images/icon-work.svg" alt="icon work">
+        </div>
+
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Work</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">32hrs</div>
+              <p class="card__description"> Last week - 36hrs
+            </div>
+            </p>
+          </div>
+        </a>
+
+      </div>
+      <div class="card card--task card--play">
+        <div class="card__header">
+          <img src="./images/icon-play.svg" alt="icon play">
+
+        </div>
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Play</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">10hrs</div>
+              <p class="card__description"> Last week - 8hrs
+            </div>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card card--task card--study">
+        <div class="card__header">
+          <img src="./images/icon-study.svg" alt="icon study">
+        </div>
+
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Study</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">4hrs</div>
+              <p class="card__description"> Last week - 7hrs
+            </div>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card card--task card--exercise">
+        <div class="card__header">
+          <img src="./images/icon-exercise.svg" alt="icon exercise">
+        </div>
+
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Exercise</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">4hrs</div>
+              <p class="card__description"> Last week - 5hrs
+            </div>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card card--task card--social">
+        <div class="card__header">
+          <img src="./images/icon-social.svg" alt="icon social">
+        </div>
+
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Social</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">5hrs</div>
+              <p class="card__description"> Last week - 10hrs
+            </div>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card card--task card--care">
+        <div class="card__header">
+          <img src="./images/icon-self-care.svg" alt="icon self care">
+        </div>
+
+        <a href="#" class="card__link">
+          <div class="card__content">
+            <div class="d-flex">
+              <div class="card__title">Self Care</div>
+              <button type="button" class="card__menu">
+                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis">
+              </button>
+            </div>
+            <div class="card__time-group">
+              <div class="card__time">2hrs</div>
+              <p class="card__description"> Last week - 2hrs
+            </div>
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/rafashiga" target="_blank">Rafael Shiga</a>.
+    </div>
+  </main>
+
+</body>
+
+</html>
